@@ -1,0 +1,14 @@
+<div class="container">
+	<app-loader *ngIf="loadershow"></app-loader>
+
+<div class="row">
+	<div class="card col-sm-4" *ngFor="let news of googlenews">
+    <img class="card-img-top" src="{{news.urlToImage}}" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">{{news.title}}</h4>
+      <p class="card-text">{{news.description}}</p>
+      <a href="{{news.url}}" target="_blank" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div>
+</div>

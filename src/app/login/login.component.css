@@ -1,0 +1,17 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.main-container {
+  height: 100%;
+    overflow:hidden;
+}
+
+.section-demo {
+  height: 100%;
+  background-color: #0a365d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0a365d), color-stop(100%, #030f1b));
+  background-image: -webkit-linear-gradient(#0a365d, #030f1b);
+  background-image: linear-gradient(#0a365d, #030f1b);
+}

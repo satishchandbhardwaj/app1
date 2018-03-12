@@ -9,13 +9,13 @@ import { HttpService } from '../services/http.service';
 })
 export class BikesComponent implements OnInit {
 
-	googlenews:any = [];
-	loadershow = true;
-
+  googlenews:any = [];
+  loadershow = true;
+console.log(HttpService);
   constructor(private httpService:HttpService) { }
 
   ngOnInit() {
-  	this.httpService.getNewsData()
+    this.httpService.getNewsData()
       .subscribe(
       (data) => {
         console.log(data);
@@ -26,7 +26,7 @@ export class BikesComponent implements OnInit {
      }
      () => {console.log('complete'); this.loadershow = false;}
     )
-  	
+    
   }
 
 }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { newsdata } from './news';
-import { Observable } from 'rxjs/Observable';
+ import { HttpClient } from '@angular/common/http';
+ import { newsdata } from './news';
+ import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class HttpService {
